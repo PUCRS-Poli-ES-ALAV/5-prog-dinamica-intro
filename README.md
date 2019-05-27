@@ -17,7 +17,7 @@
     
    ```java
    FIBO (n)
-        f [0] ← 0
+        f [0] ← 0 
 	f [1] ← 1
 	para i ← 2 até n faça
            f[i] ← f[i-1]+f[i-2]
