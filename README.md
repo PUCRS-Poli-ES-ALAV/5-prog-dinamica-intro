@@ -36,7 +36,7 @@
 	se n ≤ 1
 	então f [n] ← n
 	senão f [n] ← LOOKUP-FIBO(f, n − 1) + LOOKUP-FIBO(f, n − 2)
-        devolva f [n]
+	devolva f [n]
    ```
     
 2. Monte uma tabela com os resultados das execuções acima. As linhas da tabela são os algoritmos implementados, as colunas os valores para testar e contabilizar.
