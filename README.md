@@ -17,7 +17,7 @@
     
    ```java
    FIBO (n)
-    	f [0] ← 0
+        f [0] ← 0
 	f [1] ← 1
 	para i ← 2 até n faça
            f[i] ← f[i-1]+f[i-2]
@@ -33,7 +33,7 @@
    LOOKUP-FIBO (f, n)
 	se f [n] ≥ 0
         então devolva f [n]
-        se n ≤ 1
+	se n ≤ 1
 	então f [n] ← n
         senão f [n] ← LOOKUP-FIBO(f, n − 1) + LOOKUP-FIBO(f, n − 2)
         devolva f [n]
