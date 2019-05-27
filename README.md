@@ -17,24 +17,26 @@
     
    ```java
    FIBO (n)
-    	f [0]  ← 0
-	    f [1] ← 1
-	    para i ← 2 até n faça
-           f[i] <- f[i-1]+f[i-2]
-  	  devolva f [n]
+    	f [0] ← 0
+	f [1] ← 1
+	para i ← 2 até n faça
+           f[i] ← f[i-1]+f[i-2]
+  	devolva f [n]
    ```
     
    ```java
-   int maxVal2(int A[], int init, int end) {  
-       if (end - init <= 1)
-           return max(A[init], A[end]);  
-       else {
-             int m = (init + end)/2;
-             int v1 = maxVal2(A,init,m);   
-             int v2 = maxVal2(A,m+1,end);  
-             return max(v1,v2);
-            }
-   }
+   MEMOIZED-FIBO (f, n)
+	para i ← 0 até n faça
+	     f [i] ← −1
+	devolva LOOKUP-FIBO (f, n)
+
+   LOOKUP-FIBO (f, n)
+	se f [n] ≥ 0
+        então devolva f [n]
+        se n ≤ 1
+	então f [n] ← n
+        senão f [n] ← LOOKUP-FIBO(f, n − 1) + LOOKUP-FIBO(f, n − 2)
+        devolva f [n]
    ```
     
 2. Monte uma tabela com os resultados das execuções acima. As linhas da tabela são os algoritmos implementados, as colunas os valores para testar e contabilizar.
