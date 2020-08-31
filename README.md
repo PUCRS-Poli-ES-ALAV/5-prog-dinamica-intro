@@ -39,4 +39,9 @@
 	devolva f [n]
    ```
     
-2. Monte uma tabela com os resultados das execuções acima. As linhas da tabela são os algoritmos implementados, as colunas os valores para testar e contabilizar.
+1. Monte uma tabela com os resultados das execuções acima. As linhas da tabela são os algoritmos implementados, as colunas os valores para testar e contabilizar.
+
+1. Resolva o problema da mochila conforme o enuciado em sala de aula. 
+   1. Ache uma solução que testa todas as combinações possíveis e seleciona a melhor, aplicando divisão-e-conquista ou não;
+   1. Contabilize o número de iterações;
+   1. Implemente e teste sua solução, para o caso exposto em aula e outros de mesmo porte (;-)).
