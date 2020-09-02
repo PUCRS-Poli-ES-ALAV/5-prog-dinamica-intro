@@ -45,3 +45,5 @@
    1. Ache uma solução que testa todas as combinações possíveis e seleciona a melhor, aplicando divisão-e-conquista ou não;
    1. Contabilize o número de iterações;
    1. Implemente e teste sua solução, para o caso exposto em aula e outros de mesmo porte (;-)).
+
+1. Implemente e teste o algorítmo da Mochila apresentado em aula. Contabilize o número de iterações e compare com sua versão de solução da aula anterior.
